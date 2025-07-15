@@ -5,7 +5,7 @@
 
 ```shell
 git clone https://github.com/AnChangNice/Logic2_HCI_UART_Extension.git ./tools/logic2
-pip install -r ./tools/logic2/requirements.txt
+pip install -r ./requirements.txt
 ```
 
 # Tools
@@ -24,4 +24,11 @@ COM47
     desc: JLink CDC UART Port (COM47)
     hwid: USB VID:PID=1366:1024 SER=001068087631 LOCATION=1-3.2:x.0
 4 ports found
+```
+
+# Sample
+The sample test script for listing and interacting with serial ports and capture logic analyzer data:`test.py`
+
+```shell
+python test.py [test_name] [runtimes] [log_folder]
 ```
