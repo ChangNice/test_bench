@@ -1,0 +1,2 @@
+-r tools/logic2/requirements.txt
+pyserial==3.5
