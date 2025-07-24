@@ -24,9 +24,10 @@ class Board:
 
         self.save_folder = folder
 
-    def reset(self):
+    def reset(self, clear_history_log=True):
 
-        self.com_his = ""
+        if clear_history_log:
+            self.com_his = ""
 
         temp_file = tempfile.NamedTemporaryFile(mode='w', delete=False)
 
